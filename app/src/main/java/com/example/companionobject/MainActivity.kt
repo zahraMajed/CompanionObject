@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
         btnChange=findViewById(R.id.btnChange)
         mainLayout=findViewById(R.id.CL)
 
+        //step 3: access data whatever you want
+        //To Access the data, just call the Class name in another class (Activity) and use dot notation to access its members.
         textView.text=constantValues.textMsg
 
         btnChange.setOnClickListener(){
